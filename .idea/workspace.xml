@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0f0b977-4e52-40b4-a26f-d5bd574db7cf" name="Changes" comment="сделан 1 пункт задания">
-      <change afterPath="$PROJECT_DIR$/src/test/java/OrderMakingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PageObject/OrderlPage.java" afterDir="false" />
+    <list default="true" id="a0f0b977-4e52-40b4-a26f-d5bd574db7cf" name="Changes" comment="выполняю 2 пункт задания">
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestOrderMaking.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/HomePageQaScooter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObject/HomePageQaScooter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/OrderModalPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/OrderMakingTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/OrderlPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObject/OrderlPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestDropDownText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestDropDownText.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,11 +67,15 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.CheckTextInDropDownList.executor": "Run",
+    "JUnit.OrderMakingTest.checkMakingOrderHeaderBottom.executor": "Run",
+    "JUnit.OrderMakingTest.executor": "Run",
     "JUnit.Test.checkActivity.executor": "Run",
     "JUnit.Test.executor": "Run",
     "JUnit.TestDropDownText.checkActivity.executor": "Run",
     "JUnit.TestDropDownText.checkTextInDropDown.executor": "Run",
     "JUnit.TestDropDownText.executor": "Run",
+    "JUnit.TestOrderMaking.checkMakingOrderHeaderBottom.executor": "Run",
+    "JUnit.TestOrderMaking.executor": "Run",
     "JUnit.TextInDropDownList.executor": "Run",
     "JUnit.checkTextInDropDownList.checkActivity.executor": "Run",
     "JUnit.checkTextInDropDownList.executor": "Run",
@@ -83,7 +87,11 @@
     "git-widget-placeholder": "develop",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_directory_selection": "C:/cygwin64/Sprint_4/target/generated-test-sources/test-annotations",
     "last_opened_file_path": "C:/cygwin64/Sprint_4/src/test",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "configurable.group.editor"
   }
 }]]></component>
@@ -91,31 +99,21 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\cygwin64\Sprint_4\src\test" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\cygwin64\Sprint_4\src\test\java" />
+      <recent name="C:\cygwin64\Sprint_4\src\test\java\Obj" />
+      <recent name="C:\cygwin64\Sprint_4\src\test" />
+      <recent name="C:\cygwin64\Sprint_4\src\test\PageObject" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
       <recent name="PageObject" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestDropDownText">
-    <configuration name="CheckTextInDropDownList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Sprint_4" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CheckTextInDropDownList" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CheckTextInDropDownList.checkActivity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Sprint_4" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CheckTextInDropDownList" />
-      <option name="METHOD_NAME" value="checkActivity" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestOrderMaking">
     <configuration name="TestDropDownText" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Sprint_4" />
       <option name="PACKAGE_NAME" value="" />
@@ -145,13 +143,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestOrderMaking" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestOrderMaking" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestOrderMaking.checkMakingOrderHeaderBottom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestOrderMaking" />
+      <option name="METHOD_NAME" value="checkMakingOrderHeaderBottom" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestDropDownText" />
+        <item itemvalue="JUnit.TestOrderMaking" />
         <item itemvalue="JUnit.TestDropDownText.checkTextInDropDown" />
+        <item itemvalue="JUnit.TestDropDownText" />
+        <item itemvalue="JUnit.TestOrderMaking.checkMakingOrderHeaderBottom" />
         <item itemvalue="JUnit.TestDropDownText.checkActivity" />
-        <item itemvalue="JUnit.CheckTextInDropDownList" />
-        <item itemvalue="JUnit.CheckTextInDropDownList.checkActivity" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +197,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717320443853</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="выполняю 2 пункт задания">
+      <option name="closed" value="true" />
+      <created>1717326906880</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717326906880</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,7 +222,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fist" />
     <MESSAGE value="сделан 1 пункт задания" />
-    <option name="LAST_COMMIT_MESSAGE" value="сделан 1 пункт задания" />
+    <MESSAGE value="выполняю 2 пункт задания" />
+    <option name="LAST_COMMIT_MESSAGE" value="выполняю 2 пункт задания" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

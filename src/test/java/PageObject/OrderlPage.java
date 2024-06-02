@@ -1,6 +1,7 @@
 package PageObject;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -15,7 +16,7 @@ public class OrderlPage {
     // локатор для текстового поля "* Адрес: куда привезти заказ"
     private final By adressTextField = By.xpath(".//input[@placeholder='* Адрес: куда привезти заказ']");
     // локатор для текстового поля "* Станция метро"
-    private final By metroStationDropDown = By.xpath("//div[]");
+    private final By metroStationDropDown = By.xpath(".//div[@class='select-search']");
     // локатор для текстового поля "* Телефон: на него позвонит курьер"
     private final By telephoneTextField = By.xpath(".//input[@placeholder='* Телефон: на него позвонит курьер']");
     // локатор для кнопки "Далее"
@@ -55,7 +56,7 @@ public class OrderlPage {
     //метод открывает выпадающий список Станция метро и выбирает значение из него
     public void setMetroStationDropDown (String metroStation) {
         driver.findElement(metroStationDropDown).click();
-        driver.findElement(By.xpath(".//div[@class='select-search']//*[text()='"+metroStation+"']")).click();
+        driver.findElement(By.xpath(".//div[@class='select-search__select']//div[text()='"+metroStation+"']")).click();
     }
     //метод вводит Телефон: на него позвонит курьер
     public void setTelephoneText (String telephoneText) {
@@ -68,14 +69,16 @@ public class OrderlPage {
     //метод вводит Когда привезти самокат
     public void setDateDelivery (String dateDelivery) {
         driver.findElement(dateDeliveryField).sendKeys(dateDelivery);
+        driver.findElement(dateDeliveryField).sendKeys(Keys.ENTER);
     }
     //метод выбирает Срок аренды из выпадающего списка
     public void setRentalPeriodText (String rentalPeriodText) {
-        driver.findElement(By.xpath(rentalPeriodTextField +"/parent::div/parent::div//*[text()='"+rentalPeriodText+"']")).click();
+        driver.findElement(rentalPeriodTextField).click();
+        driver.findElement(By.xpath(".//div[@class='Dropdown-menu']/div[text()='"+rentalPeriodText+"']")).click();
     }
     //метод ставит чек бокс цвету самоката
     public void setColorScooter (String colorScooter) {
-        driver.findElement(By.xpath(colorScooterHeader +"/parent::div/label[text()='"+colorScooter+"']")).click();
+        driver.findElement(By.xpath( ".//div/label[text()='"+colorScooter+"']")).click();
     }
     //метод вводит Комментарий для курьера
     public void setCommentText (String commentText) {
@@ -91,19 +94,8 @@ public class OrderlPage {
     }
     //метод проверяет заголовок Заказ оформлен
     public void checkOrderBeenPlaced () {
+        new WebDriverWait(driver, 3).until(ExpectedConditions.elementToBeClickable(headerOrderBeenPlaced));
         driver.findElement(headerOrderBeenPlaced);
     }
-
-
-
-
-
-
-
-
-
-
-
-
 
 }

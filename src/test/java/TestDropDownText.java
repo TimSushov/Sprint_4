@@ -1,13 +1,11 @@
 import PageObject.HomePageQaScooter;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
-import org.junit.After;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 
@@ -53,10 +51,10 @@ public class TestDropDownText {
         @Test
         public void checkTextInDropDown() throws InterruptedException {
             // драйвер для браузера Firefox
-//        WebDriverManager.firefoxdriver().setup();
+//         WebDriverManager.firefoxdriver().setup();
 //        WebDriver driver = new FirefoxDriver();
             // драйвер для браузера Chrome
-            WebDriverManager.chromedriver().setup();
+           WebDriverManager.chromedriver().setup();
             WebDriver driver = new ChromeDriver();
 
             // переход на страницу тестового приложения
@@ -76,9 +74,5 @@ public class TestDropDownText {
         }
 
 
-//    @AfterEach
-//    public void teardown() {
-//        driver.quit();
-//    }
 
    }
