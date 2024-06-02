@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0f0b977-4e52-40b4-a26f-d5bd574db7cf" name="Changes" comment="fist">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PageObject/HomePageQaScooter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PageObject/OrderModalPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestDropDownText.java" afterDir="false" />
+    <list default="true" id="a0f0b977-4e52-40b4-a26f-d5bd574db7cf" name="Changes" comment="сделан 1 пункт задания">
+      <change afterPath="$PROJECT_DIR$/src/test/java/OrderMakingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PageObject/OrderlPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/HomePageQaScooter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObject/HomePageQaScooter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/OrderModalPage.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,30 +64,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JUnit.CheckTextInDropDownList.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Test.checkActivity.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TestDropDownText.checkActivity.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TestDropDownText.checkTextInDropDown.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TestDropDownText.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TextInDropDownList.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.checkTextInDropDownList.checkActivity.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.checkTextInDropDownList.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Sprint_4 [clean,install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Sprint_4 [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Sprint_4 [install].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.editor&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.CheckTextInDropDownList.executor": "Run",
+    "JUnit.Test.checkActivity.executor": "Run",
+    "JUnit.Test.executor": "Run",
+    "JUnit.TestDropDownText.checkActivity.executor": "Run",
+    "JUnit.TestDropDownText.checkTextInDropDown.executor": "Run",
+    "JUnit.TestDropDownText.executor": "Run",
+    "JUnit.TextInDropDownList.executor": "Run",
+    "JUnit.checkTextInDropDownList.checkActivity.executor": "Run",
+    "JUnit.checkTextInDropDownList.executor": "Run",
+    "Maven.Sprint_4 [clean,install].executor": "Run",
+    "Maven.Sprint_4 [clean].executor": "Run",
+    "Maven.Sprint_4 [install].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "develop",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/cygwin64/Sprint_4/src/test",
+    "settings.editor.selected.configurable": "configurable.group.editor"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\cygwin64\Sprint_4\src\test" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
       <recent name="PageObject" />
     </key>
   </component>
@@ -169,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717163803154</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="сделан 1 пункт задания">
+      <option name="closed" value="true" />
+      <created>1717320443853</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1717320443853</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -185,7 +196,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fist" />
-    <option name="LAST_COMMIT_MESSAGE" value="fist" />
+    <MESSAGE value="сделан 1 пункт задания" />
+    <option name="LAST_COMMIT_MESSAGE" value="сделан 1 пункт задания" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

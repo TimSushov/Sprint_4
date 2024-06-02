@@ -8,14 +8,14 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HomePageQaScooter {
-    private WebDriver driver;
+    private final WebDriver driver;
 
     // локатор заголовка "Вопросы о важном"
-    private By headerMainQuestions = By.xpath("//div[text()='Вопросы о важном']");
+    private final By headerMainQuestions = By.xpath("//div[text()='Вопросы о важном']");
     // локатор кнопки заказать в хэдере
-    private By headerOrderButton = By.xpath(".//div[@class='Header_Header__214zg']//button[text()='Заказать']");
+    private final By headerOrderButton = By.xpath(".//div[@class='Header_Header__214zg']//button[text()='Заказать']");
     // локатор кнопки заказать в футере
-    private By footerOrderButton = By.xpath(".//div[@class='Home_ThirdPart__LSTEE']//button[text()='Заказать']");
+    private final By footerOrderButton = By.xpath(".//div[@class='Home_ThirdPart__LSTEE']//button[text()='Заказать']");
 
     public HomePageQaScooter(WebDriver driver){
         this.driver = driver;
@@ -37,7 +37,7 @@ public class HomePageQaScooter {
     }
     // метод нажимающий кнопку заказать в хэдере
     public void clickHeaderOrderButton () {
-        new WebDriverWait(driver, 3).until(ExpectedConditions.elementToBeClickable(headerOrderButton);
+        new WebDriverWait(driver, 3).until(ExpectedConditions.elementToBeClickable(headerOrderButton));
         driver.findElement(headerOrderButton).click();
     }
     //  метод скроллит и нажимает кнопку заказать в футере
