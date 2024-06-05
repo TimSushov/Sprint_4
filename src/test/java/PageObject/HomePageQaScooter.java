@@ -7,6 +7,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.util.Objects;
+
 public class HomePageQaScooter {
     private final WebDriver driver;
 
@@ -35,15 +37,15 @@ public class HomePageQaScooter {
     public void checkTextDropDownQuestions (String textInDropDown) {
         driver.findElement(By.xpath(".//div/p[text()='"+textInDropDown+"']"));
     }
-    // метод нажимающий кнопку заказать в хэдере
-    public void clickHeaderOrderButton () {
-        new WebDriverWait(driver, 3).until(ExpectedConditions.elementToBeClickable(headerOrderButton));
-        driver.findElement(headerOrderButton).click();
-    }
-    //  метод скроллит и нажимает кнопку заказать в футере
-    public void clickFooterOrderButton() {
-        WebElement element = driver.findElement(footerOrderButton);
-        ((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView();", element);
-        driver.findElement(footerOrderButton).click();
+    // метод нажимающий кнопку заказать в хэдере, получает на вход расположение кнопки
+    public void clickOrderButton (String location) {
+        if(Objects.equals(location, "header")) {
+            new WebDriverWait(driver, 3).until(ExpectedConditions.elementToBeClickable(headerOrderButton));
+            driver.findElement(headerOrderButton).click();
+        } else if (Objects.equals(location, "footer")) {
+            WebElement element = driver.findElement(footerOrderButton);
+            ((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView();", element);
+            driver.findElement(footerOrderButton).click();
+        }
     }
 }

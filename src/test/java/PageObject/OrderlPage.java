@@ -25,8 +25,6 @@ public class OrderlPage {
     private final By dateDeliveryField = By.xpath(".//input[@placeholder='* Когда привезти самокат']");
     // локатор для текстового поля "* Срок аренды"
     private final By rentalPeriodTextField = By.xpath(".//div[text()='* Срок аренды']");
-    // локатор для поля с чек боксами "Цвет самоката"
-    private final By colorScooterHeader = By.xpath(".//div[text()='Цвет самоката']");
     // локатор для текстового поля "Комментарий для курьера"
     private final By commentTextField = By.xpath(".//input[@placeholder='Комментарий для курьера']");
     // локатор для кнопки "Заказать" при завершении оформления заказа

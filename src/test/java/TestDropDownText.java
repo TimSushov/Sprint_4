@@ -1,22 +1,22 @@
+import PageObject.BrowserWebdrivers;
 import PageObject.HomePageQaScooter;
-
-import io.github.bonigarcia.wdm.WebDriverManager;
+import org.junit.After;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+
 
 
 @RunWith(Parameterized.class)
 public class TestDropDownText {
 
-    private static WebDriver driver;
+    //выбрать барузер
+    BrowserWebdrivers browserWebdrivers = new BrowserWebdrivers();
+    WebDriver driver = browserWebdrivers.chromeWebdriver();
 
     private  String textHeaderDropDown;
     private  String textInDropDown;
-
 
     public TestDropDownText(String textHeaderDropDown, String textInDropDown) {
         this.textHeaderDropDown = textHeaderDropDown;
@@ -47,19 +47,10 @@ public class TestDropDownText {
             };
         }
 
-
         @Test
         public void checkTextInDropDown() throws InterruptedException {
-            // драйвер для браузера Firefox
-//         WebDriverManager.firefoxdriver().setup();
-//        WebDriver driver = new FirefoxDriver();
-            // драйвер для браузера Chrome
-           WebDriverManager.chromedriver().setup();
-            WebDriver driver = new ChromeDriver();
-
             // переход на страницу тестового приложения
             driver.get("https://qa-scooter.praktikum-services.ru/");
-
             // создается объект класса главной страницы
             HomePageQaScooter objHomePageQaScooter = new HomePageQaScooter(driver);
             // скролинг до заголовка Вопросы о важном
@@ -68,11 +59,11 @@ public class TestDropDownText {
             objHomePageQaScooter.openDropDownQuestions(textHeaderDropDown);
             // вызывается метод по проверки текста в ввыпадающем списке
             objHomePageQaScooter.checkTextDropDownQuestions(textInDropDown);
-            // закрываем браузер, здесь потому, что в тест подставляются разные данные.
-            driver.quit();
-
         }
 
-
-
-   }
+        @After
+        public void teardown() {
+            // Закрой браузер
+            driver.quit();
+        }
+}
