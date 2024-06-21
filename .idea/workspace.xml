@@ -4,31 +4,175 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0f0b977-4e52-40b4-a26f-d5bd574db7cf" name="Changes" comment="" />
+    <list default="true" id="a0f0b977-4e52-40b4-a26f-d5bd574db7cf" name="Changes" comment="Выполнил финальный проект 4 спринта">
+      <change afterPath="$PROJECT_DIR$/src/test/java/PageObject/BrowserWebdrivers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/HomePageQaScooter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObject/HomePageQaScooter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/OrderlPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObject/OrderlPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestDropDownText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestDropDownText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestOrderMaking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestOrderMaking.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;TimSushov&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/TimSushov/Sprint_4.git&quot;,
+    &quot;accountId&quot;: &quot;efab6371-2cc5-4694-97f2-a889ea5a1f30&quot;
+  }
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+        <option name="workOffline" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2hEed5RlEaZAd61cJ7nUzdw909a" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.CheckTextInDropDownList.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OrderMakingTest.checkMakingOrderHeaderBottom.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OrderMakingTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Test.checkActivity.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestDropDownText.checkActivity.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestDropDownText.checkTextInDropDown.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestDropDownText.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestOrderMaking.checkMakingOrderHeaderBottom.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestOrderMaking.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TextInDropDownList.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.checkTextInDropDownList.checkActivity.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.checkTextInDropDownList.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Sprint_4 [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Sprint_4 [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Sprint_4 [install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;#1 on develop&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/cygwin64/Sprint_4/target/generated-test-sources/test-annotations&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/cygwin64/Sprint_4/src/test&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.editor&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\cygwin64\Sprint_4\src\test" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\cygwin64\Sprint_4\src\test\java" />
+      <recent name="C:\cygwin64\Sprint_4\src\test\java\Obj" />
+      <recent name="C:\cygwin64\Sprint_4\src\test" />
+      <recent name="C:\cygwin64\Sprint_4\src\test\PageObject" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="PageObject" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TestOrderMaking">
+    <configuration name="TestDropDownText" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestDropDownText" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDropDownText.checkActivity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestDropDownText" />
+      <option name="METHOD_NAME" value="checkActivity" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDropDownText.checkTextInDropDown" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestDropDownText" />
+      <option name="METHOD_NAME" value="checkTextInDropDown" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestOrderMaking" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestOrderMaking" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestOrderMaking.checkMakingOrderHeaderBottom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestOrderMaking" />
+      <option name="METHOD_NAME" value="checkMakingOrderHeaderBottom" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestOrderMaking" />
+        <item itemvalue="JUnit.TestDropDownText" />
+        <item itemvalue="JUnit.TestDropDownText.checkTextInDropDown" />
+        <item itemvalue="JUnit.TestOrderMaking.checkMakingOrderHeaderBottom" />
+        <item itemvalue="JUnit.TestDropDownText.checkActivity" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -38,6 +182,67 @@
       <option name="presentableId" value="Default" />
       <updated>1717163747937</updated>
     </task>
+    <task id="LOCAL-00001" summary="fist">
+      <option name="closed" value="true" />
+      <created>1717163803154</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717163803154</updated>
+    </task>
+    <task id="LOCAL-00002" summary="сделан 1 пункт задания">
+      <option name="closed" value="true" />
+      <created>1717320443853</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1717320443853</updated>
+    </task>
+    <task id="LOCAL-00003" summary="выполняю 2 пункт задания">
+      <option name="closed" value="true" />
+      <created>1717326906880</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717326906880</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Выполнил финальный проект 4 спринта">
+      <option name="closed" value="true" />
+      <created>1717334074129</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717334074129</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fist" />
+    <MESSAGE value="сделан 1 пункт задания" />
+    <MESSAGE value="выполняю 2 пункт задания" />
+    <MESSAGE value="Выполнил финальный проект 4 спринта" />
+    <option name="LAST_COMMIT_MESSAGE" value="Выполнил финальный проект 4 спринта" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="4" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
